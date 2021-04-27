@@ -17,7 +17,7 @@ import java.lang.reflect.Method;
 @SpringBootApplication
 public class Application {
 
-    @Value("${rest.api.base.path}")
+    @Value("${rest.api.base.path}"  )
     private String restApiBasePath;
     @Value("${cors.allowed.origins}")
     private String[] corsAllowedOrigins;
